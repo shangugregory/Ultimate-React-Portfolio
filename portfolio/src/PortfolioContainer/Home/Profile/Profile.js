@@ -1,10 +1,11 @@
 import React from "react";
+import "./Profile.css"
 import Typical from "react-typical";
-
+import './Profile.css'
 export default function Profile() {
   return (
     <div className="profile-container">
-      <div className="Profile-parent">
+      <div className="profile-parent">
         <div className="profile-detail">
           <div className="colz">
             <div className="colz-icon">
@@ -54,18 +55,18 @@ export default function Profile() {
               </h1>
               <span className="profile-role-tagline">
                 Am a skilled Website Designer with Experience in codding
-                visually appealing and user frienty websites
+                visually appealing and user friendy websites
               </span>
             </span>
           </div>
-          <div className="profile-options">
+          <div className="profile-option">
             <button className="btn primary-btn">
               {""}
               Hire Me{" "}
             </button>
 
             <a href="CV.pdf" download="Gregory CV.pdf">
-              <button className="btn highlighted-btn"> Get Resume</button>
+              <button className="btn highlighted-btn"> My Resume</button>
             </a>
           </div>
         </div>
