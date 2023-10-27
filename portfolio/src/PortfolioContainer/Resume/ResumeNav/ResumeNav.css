@@ -1,5 +1,7 @@
 .resume-nav-container{
-    width: 350px;
+    width: 350px ;
+    height: 100%;
+
 }
  
 .resume-nav-container nav{
@@ -19,12 +21,13 @@
     width: 60px;
     padding: 20px;
     text-decoration: none;
+    margin-top: .5rem;
 }
 .resume-nav-container nav ul li :hover{
     background-color: #494949;
     color: white;
     border-radius: 0 30px 30px 0px;
-    width: 100%;
+    width: 80%;
     list-style: none;
     text-decoration: none;
     

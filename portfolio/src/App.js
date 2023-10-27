@@ -5,8 +5,6 @@ import Resume from "./PortfolioContainer/Resume/Resume";
 
 function App() {
   return (<>
-  <Home/>
-  <AboutMe/>
   <Resume/>
     </>
   );

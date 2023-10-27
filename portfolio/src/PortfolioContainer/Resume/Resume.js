@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import Education from "./Education/Education";
 import Intrest from "./Intrests/Intrest";
@@ -7,6 +7,7 @@ import Projects from "./Projects/Project";
 import WorkHistory from "./WorkHistory/WorkHistory";
 import ResumeNav from "./ResumeNav/ResumeNav";
 import "./Resume.css";
+import EducationSummary from "./Education/EducationSummary";
 
 export default function Resume() {
   return (
@@ -20,8 +21,8 @@ export default function Resume() {
           <ResumeNav />
 
           <Routes>
-            <Route path="/" element={<Education />} />
-            <Route path="/Education" element={<Education />} />
+            <Route path="/" element={<EducationSummary/>} />
+            <Route path="/Education" element={<EducationSummary/>} />
             <Route path="/WorkHistory" element={<WorkHistory />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/ProgrammingSkills" element={<ProgrammingSkills />} />
