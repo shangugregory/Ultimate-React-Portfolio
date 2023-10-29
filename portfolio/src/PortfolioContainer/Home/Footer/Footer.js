@@ -5,7 +5,7 @@ export default function footer() {
   return (
     <div className='footer-container'>
         <div className='footer-parent'>
-            <img src={shape} alt='No Internet'/>
+            <img src={shape} alt='No Internet' />
         </div>
     </div>
   )
